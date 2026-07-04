@@ -1,0 +1,171 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2338 >>
+stream
+BT
+/F1 18 Tf
+54 760 Td
+(Ye Thu Aung) Tj
+ET
+BT
+/F1 12 Tf
+54 740 Td
+(Junior Full-Stack Developer) Tj
+ET
+BT
+/F1 9 Tf
+54 720 Td
+(ares295821@gmail.com | github.com/akk143 | linkedin.com/in/ye-thu-7b125a33a | yethuaung.dev) Tj
+ET
+BT
+/F1 12 Tf
+54 688 Td
+(SUMMARY) Tj
+ET
+BT
+/F1 10 Tf
+54 670 Td
+(Goal-driven developer delivering polished React frontends and Laravel/Express backends for product-led web applications.) Tj
+ET
+BT
+/F1 10 Tf
+54 656 Td
+(Strong at turning design into responsive UIs, integrating APIs, and building maintainable full-stack solutions.) Tj
+ET
+BT
+/F1 12 Tf
+54 630 Td
+(TECHNICAL SKILLS) Tj
+ET
+BT
+/F1 10 Tf
+54 612 Td
+(Frontend: React, TypeScript, Tailwind CSS, HTML, CSS, JavaScript) Tj
+ET
+BT
+/F1 10 Tf
+54 598 Td
+(Backend: Laravel, PHP, Express, Node.js, REST APIs, Firebase) Tj
+ET
+BT
+/F1 10 Tf
+54 584 Td
+(Database: MySQL, Firebase Realtime Database) Tj
+ET
+BT
+/F1 10 Tf
+54 570 Td
+(Tools: Git, GitHub, Vite, PostCSS, Figma, VS Code, Vercel) Tj
+ET
+BT
+/F1 12 Tf
+54 544 Td
+(SELECTED PROJECTS) Tj
+ET
+BT
+/F1 10 Tf
+54 526 Td
+(OpenTalk Real-time Chat) Tj
+ET
+BT
+/F1 10 Tf
+54 512 Td
+(- Built a real-time chat app with Firebase, Google OAuth, and room-based messaging sync.) Tj
+ET
+BT
+/F1 10 Tf
+54 498 Td
+(- Delivered sub-second updates and clear state handling for active conversations.) Tj
+ET
+BT
+/F1 10 Tf
+54 472 Td
+(React Landing Page) Tj
+ET
+BT
+/F1 10 Tf
+54 458 Td
+(- Created a responsive landing page with modern UI patterns, fast load speed, and mobile-first layout.) Tj
+ET
+BT
+/F1 10 Tf
+54 444 Td
+(- Focused on conversion-ready design, clean content hierarchy, and polished interactions.) Tj
+ET
+BT
+/F1 12 Tf
+54 418 Td
+(EXPERIENCE) Tj
+ET
+BT
+/F1 10 Tf
+54 400 Td
+(Freelance Web Developer) Tj
+ET
+BT
+/F1 10 Tf
+54 386 Td
+(- Delivered React and Laravel projects for clients, including landing pages, dashboards, and web tools.) Tj
+ET
+BT
+/F1 10 Tf
+54 372 Td
+(- Built reusable component systems, optimized page performance, and integrated API-driven workflows.) Tj
+ET
+BT
+/F1 12 Tf
+54 346 Td
+(EDUCATION) Tj
+ET
+BT
+/F1 10 Tf
+54 328 Td
+(Spencer Cyber Security College, Vietnam) Tj
+ET
+BT
+/F1 10 Tf
+54 314 Td
+(Diploma in Software Development, 2023 - 2027) Tj
+ET
+BT
+/F1 12 Tf
+54 288 Td
+(CERTIFICATIONS) Tj
+ET
+BT
+/F1 10 Tf
+54 270 Td
+(- Laravel Web Development Fundamentals) Tj
+ET
+BT
+/F1 10 Tf
+54 256 Td
+(- Responsive Frontend Design with React) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+0000000122 00000 n 
+
+0000002791 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2791
+%%EOF
