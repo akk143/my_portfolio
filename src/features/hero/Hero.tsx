@@ -77,7 +77,7 @@ export const Hero = () => {
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" aria-hidden="true" />
               </a>
               <a
-                href="/yethuaungcv.pdf"
+                href="/cv/yethuaungcv.pdf"
                 download="yethuaungcv.pdf"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-3.5 text-sm font-semibold text-slate-800 transition hover:-translate-y-0.5 hover:border-slate-400 hover:text-slate-950"
               >

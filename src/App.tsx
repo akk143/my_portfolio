@@ -6,6 +6,7 @@ import { Experience } from "./features/experiences/Experience";
 import { Hero } from "./features/hero/Hero";
 import { Skills } from "./features/hero/Skills";
 import { ProjectList } from "./features/projects/ProjectList";
+import { BackToTop } from "./components/BackToTop";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <ProjectList />
         <Experience />
         <Contact />
+
+        <BackToTop />
       </main>
       <Footer />
     </div>

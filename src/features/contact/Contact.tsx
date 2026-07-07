@@ -85,7 +85,13 @@ export const Contact = () => {
               </div>
 
               <a
-                href={`mailto:${RECIPIENT_EMAIL}?subject=Meeting%20Invitation&body=Hi%20Ye%20Thu,%0D%0AI'd%20like%20to%20invite%20you%20to%20a%20meeting.%0D%0A`}
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+                  RECIPIENT_EMAIL
+                )}&su=${encodeURIComponent("Meeting Invitation")}&body=${encodeURIComponent(
+                  "Hi Ye Thu,\n\nI'd like to invite you to a meeting."
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-blue-50"
               >
                 <CalendarPlus className="h-4 w-4" aria-hidden="true" />
