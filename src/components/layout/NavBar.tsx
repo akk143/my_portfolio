@@ -57,8 +57,8 @@ export const NavBar = () => {
         aria-label="Primary navigation"
       >
         <a href="/home" onClick={(e) => navigateTo(e, 'home')} className="group flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-full bg-slate-950 text-sm font-semibold tracking-[-0.03em] text-white transition group-hover:-translate-y-0.5">
-            YA
+          <span className="grid h-10 w-10 shrink-0 place-items-center overflow-hidden rounded-full bg-slate-950 text-sm font-semibold tracking-[-0.03em] text-white transition group-hover:-translate-y-0.5">
+            <img src="/images/yethuaung.jpg" alt="Ye Thu Aung" className="h-full w-full object-cover object-center" />
           </span>
           <span className="hidden leading-tight sm:block">
             <span className="block text-sm font-semibold tracking-[-0.01em] text-slate-950">Ye Thu Aung</span>
