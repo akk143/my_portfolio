@@ -1,9 +1,14 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import { cn } from '../../utils/cn';
 
 const links = [
   { label: 'GitHub', href: 'https://github.com/akk143/', icon: Github },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ye-thu-7b125a33a/', icon: Linkedin },
-  { label: 'Email', href: 'mailto:ares295821@gmail.com', icon: Mail },
+  {
+    label: 'Email',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=ares295821@gmail.com',
+    icon: Mail,
+  }
 ];
 
 export const Footer = () => {
@@ -21,7 +26,10 @@ export const Footer = () => {
               href={link.href}
               target={link.href.startsWith('http') ? '_blank' : undefined}
               rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-slate-600 transition hover:-translate-y-0.5 hover:border-slate-300 hover:bg-white hover:text-slate-950"
+              className={cn(
+                'inline-flex h-10 w-10 items-center justify-center rounded-full border bg-slate-50 text-slate-600 transition hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2',
+                'hover:border-slate-300 hover:bg-white hover:text-slate-950'
+              )}
               aria-label={link.label}
             >
               <link.icon className="h-4 w-4" aria-hidden="true" />

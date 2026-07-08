@@ -107,11 +107,19 @@ export const Hero = () => {
                 <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500">Project preview</span>
               </div>
               <div className="relative aspect-[1.12/1] overflow-hidden rounded-[1.15rem] bg-slate-100">
-                <img
-                  src={chatroomPreview}
-                  alt="OpenTalk real-time chatroom interface screenshot"
-                  className="h-full w-full object-cover object-left-top"
-                />
+                <picture>
+                  <source srcSet={chatroomPreview} type="image/png" />
+                  <img
+                    src={chatroomPreview}
+                    alt="OpenTalk real-time chatroom interface screenshot"
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
+                    width={1120}
+                    height={1000}
+                    className="h-full w-full object-cover object-left-top"
+                  />
+                </picture>
                 <div className="absolute inset-x-4 bottom-4 rounded-2xl border border-white/70 bg-white/90 p-4 shadow-xl backdrop-blur">
                   <div className="flex items-start justify-between gap-4">
                     <div>
